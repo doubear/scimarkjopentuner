@@ -5,8 +5,8 @@ python -3 -m pip install pandas -i https://pypi.tuna.tsinghua.edu.cn/simple/
 python -3 -m pip install opentuner -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 2、配置flags
-进入src/Flags 默认支持多种类型flags 可手动进行添加需要测试的flag在ZXauto/zxauto.csv中
-个别jvm参数未添加到global文件中，需要手动将参数添加至src/Configurations/flags.csv flags.txt jvm_bool_flags.csv jvm_param_flags.csv中 ，再添加至自定义测试zxauto.csv中
+进入src/Flags 默认支持多种类型flags 可手动进行添加需要测试的flag在DOUauto/douauto.csv中
+个别jvm参数未添加到global文件中，需要手动将参数添加至src/Configurations/flags.csv flags.txt jvm_bool_flags.csv jvm_param_flags.csv中 ，再添加至自定义测试douauto.csv中
 
 3、执行
 进入测试目录，比如specjvm2008.jar所在目录执行：
